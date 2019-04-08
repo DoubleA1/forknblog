@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <title>Bang Equal</title>
+
+  <!-- List dependencies in the head for faster discovery/preloading -->
+  <script type="module" src="/forknblog/runtime-b3e4216ae2.mjs"></script>
+  <script type="module" src="/forknblog/main-9fade7b3a1.mjs"></script>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body class="site-body" id="site-wrapper">
+  <header class="site-header">
+      <img class="sitelogo" />
+      <div class="header-topmargin"></div>
+      <div class="header-menu">
+        <a class="menu-link" id="menu-home" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">Home</span></span></a>
+        <a class="menu-link" id="menu-articles" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">Articles</span></span></a>
+        <a class="menu-link" id="menu-projects" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">Projects</span></span></a>
+        <a class="menu-link" id="menu-about" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">About</span></span></a>
+      </ul>
+    </header>
+
+    <main class="main-wrapper">  
+    </main>    
+    <aside class="content-adbar-wrapper">
+        <div class="content-adbar1"></div>
+    </aside>
+  
+    <div type="hidden" class="state-indicator" >
+  
+    <div class="modal" id="modal"></div>
+
+  <script>
+// https://gist.github.com/samthor/64b114e4a4f539915a95b91ffd340acc
+(function() {
+  var check = document.createElement('script');
+  if (!('noModule' in check) && 'onbeforeload' in check) {
+    var support = false;
+    document.addEventListener('beforeload', function(e) {
+      if (e.target === check) {
+        support = true;
+      } else if (!e.target.hasAttribute('nomodule') || !support) {
+        return;
+      }
+      e.preventDefault();
+    }, true);
+
+    check.type = 'module';
+    check.src = '.';
+    document.head.appendChild(check);
+    check.remove();
+  }
+}());
+</script>
+
+  <script nomodule src="/forknblog/runtime-b3e4216ae2.es5.js"></script>
+  <script nomodule src="/forknblog/main-legacy-7249606d9d.es5.js"></script>
+  
+</body>
+</html>

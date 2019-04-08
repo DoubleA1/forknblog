@@ -2,15 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Webpack ES.next Boilerplate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <title>Bang Equal</title>
 
   <!-- List dependencies in the head for faster discovery/preloading -->
   <script type="module" src="{{ 'runtime.mjs' | revision }}"></script>
   <script type="module" src="{{ 'main.mjs' | revision }}"></script>
+  <link rel="stylesheet" href="./main.css">
 </head>
-<body>
+<body class="site-body" id="site-wrapper">
+  <header class="site-header">
+      <img class="sitelogo" />
+      <div class="header-topmargin"></div>
+      <div class="header-menu">
+        <a class="menu-link" id="menu-home" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">Home</span></span></a>
+        <a class="menu-link" id="menu-articles" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">Articles</span></span></a>
+        <a class="menu-link" id="menu-projects" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">Projects</span></span></a>
+        <a class="menu-link" id="menu-about" onclick="event.preventDefault()"><span class="menu-underline"><span class="menu-label">About</span></span></a>
+      </ul>
+    </header>
+
+    <main class="main-wrapper">  
+    </main>    
+    <aside class="content-adbar-wrapper">
+        <div class="content-adbar1"></div>
+    </aside>
+  
+    <div type="hidden" class="state-indicator" >
+  
+    <div class="modal" id="modal"></div>
+
   {% include 'nomodule-shim.html' %}
   <script nomodule src="{{ 'runtime.es5.js' | revision }}"></script>
   <script nomodule src="{{ 'main-legacy.es5.js' | revision }}"></script>
+  
 </body>
 </html>

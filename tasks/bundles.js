@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const config = require('./config.json');
 const {addAsset, getManifest} = require('./utils/assets');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const configurePlugins = () => {
   const plugins = [
@@ -18,6 +19,13 @@ const configurePlugins = () => {
         }).join()).slice(0, 10);
       };
       return chunk.name ? chunk.name : hashChunk();
+    }),
+
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: "[name].css",
+      chunkFilename: "[id].css"
     }),
 
     new ManifestPlugin({
@@ -43,6 +51,7 @@ const configurePlugins = () => {
 const configureBabelLoader = (browserlist) => {
   return {
     test: /\.js$/,
+    exclude: /node_modules\/(?!(dom7|ssr-window|swiper)\/).*/,
     use: {
       loader: 'babel-loader',
       options: {
@@ -73,6 +82,11 @@ const baseConfig = {
       test: /\.m?js(\?.*)?$/i,
       sourceMap: true,
       terserOptions: {
+        mangle: {
+          properties: {
+            regex: /(^_|_$)/,
+          },
+        },
         safari10: true,
       },
     })],
@@ -91,6 +105,31 @@ const modernConfig = Object.assign({}, baseConfig, {
   plugins: configurePlugins(),
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              // you can specify a publicPath here
+              // by default it use publicPath in webpackOptions.output
+              publicPath: './'
+            }
+          },
+          "css-loader"
+        ]
+      },
+      {
+        test: /\.svg$/,
+        use: {
+            loader: 'svg-url-loader',
+            options: {}
+        }
+      },
+      {
+        test: /\.(png|jpg|gif|woff|woff2|eot|ttf)$/,
+        loader: 'file-loader?limit=100000&name=./media/[name].[ext]',
+      },
       configureBabelLoader([
         // The last two versions of each browser, excluding versions
         // that don't support <script type="module">.
@@ -116,6 +155,32 @@ const legacyConfig = Object.assign({}, baseConfig, {
   plugins: configurePlugins(),
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              // you can specify a publicPath here
+              // by default it use publicPath in webpackOptions.output
+              publicPath: './'
+            }
+          },
+          "css-loader"
+        ]
+      },
+      {
+        test: /\.svg$/,
+        use: {
+            loader: 'svg-url-loader',
+            options: {}
+        }
+      },
+      {
+        test: /\.(png|jpg|gif|woff|woff2|eot|ttf)$/,
+        loader: 'file-loader?limit=100000&name='+
+        './media/[name].[ext]',
+      },
       configureBabelLoader([
         '> 1%',
         'last 2 versions',

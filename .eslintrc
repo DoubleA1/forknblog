@@ -13,5 +13,6 @@
   ],
   "rules": {
     "no-console": 0,
+    "no-extend-native": 1,
   }
 }
