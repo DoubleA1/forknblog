@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import lscache from '../services/lscache';
 
 export default class SinglePage {

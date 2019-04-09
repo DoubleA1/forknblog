@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import * as rest from './rest';
 
 const getUserName = () => {

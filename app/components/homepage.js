@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import Swiper from 'swiper';
 import '../assets/css/vendor/swiper.css';
 import Preview from './preview';

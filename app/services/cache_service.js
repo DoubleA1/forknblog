@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import * as githubservice from '../services/github_service';
 import lscache from './lscache';
 

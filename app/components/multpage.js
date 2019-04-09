@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import Preview from './preview';
 import * as cacheservice from '../services/cache_service';
 import SinglePage from './singlepage';

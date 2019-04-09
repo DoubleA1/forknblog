@@ -1,3 +1,5 @@
+import '@babel/polyfill';
+
 let fadeIn = (el) => {
   el.style.opacity = 0;
 
