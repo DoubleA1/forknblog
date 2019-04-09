@@ -345,6 +345,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 * {
@@ -542,15 +543,6 @@ article > div {
   background-color: white;
   margin-top: 2em;
 }
-
-.multipage-preview {
-  display: flex;
-  height: 10em;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
-
 
 .article-preview-title {
   display: flex;
