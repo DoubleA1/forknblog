@@ -82,7 +82,7 @@ const menuClick = (menuID, isPopState) => {
      // Add selected css to menu item
      let menuitemnext = document.getElementById(menuID);
      if (menuitemnext) {
-       if (menuitemnext == 'menu-home') {
+       if (menuitemnext.id == 'menu-home') {
         menuitemnext.lastChild.firstChild.classList.add('menu-selected');
        } else {
          menuitemnext.firstChild.firstChild.classList.add('menu-selected');
