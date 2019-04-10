@@ -1,9 +1,0 @@
-{
-  "publicPath": "/forknblog",
-  "_publicPath": "/",
-  "publicDir": "docs",
-  "publicStaticPath": "/forknblog",
-  "_publicStaticPath": "/",
-  "publicStaticDir": "docs",
-  "manifestFileName": "revisioned-asset-manifest.json"
-}
