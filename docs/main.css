@@ -511,6 +511,7 @@ html, body {
 
 .single-page > #file {
   margin-top: -40%;
+  padding: 1em;
 }
 
 .home-intro > #file {
