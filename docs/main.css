@@ -884,16 +884,6 @@ flex: 1;
     content: "4";
     display: none; 
   }
-
-  .header-menu {
-    .header-menu {
-      background-size: 30%;
-    }
-
-  }
-  
-
-
 }
 
 /* medium devices (ie. tablets) */
@@ -930,8 +920,8 @@ flex: 1;
 
   }
 
-  .sitelogo {
-    width: 3em;
+  .site-logo {
+    width: 2.75em;
   }
 
   .home-wrapper {

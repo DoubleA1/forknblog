@@ -6,3 +6,9 @@ node_modules
 
 # Compiled files
 public
+
+#Dev Files
+app
+tasks
+package.json
+package-lock.json
