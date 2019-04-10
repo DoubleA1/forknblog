@@ -83,7 +83,7 @@ const menuClick = (menuID, isPopState) => {
      let menuitemnext = document.getElementById(menuID);
      if (menuitemnext) {
        if (menuitemnext == 'menu-home') {
-        menuitemnext.firstChild.lastChild.classList.add('menu-selected');
+        menuitemnext.lastChild.firstChild.classList.add('menu-selected');
        } else {
          menuitemnext.firstChild.firstChild.classList.add('menu-selected');
        }
@@ -91,7 +91,7 @@ const menuClick = (menuID, isPopState) => {
 
      if (menuID == 'init') {
       let menuitemnext = document.getElementById('menu-home');
-      menuitemnext.firstChild.lastChild.classList.add('menu-selected');
+      menuitemnext.lastChild.firstChild.classList.add('menu-selected');
     }
 
     if (isPopState) {
