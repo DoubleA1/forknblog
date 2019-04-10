@@ -1,8 +1,8 @@
 {
   "main.css": "/main.css",
-  "main.mjs": "/main-b6270c72f6.mjs",
+  "main.mjs": "/main-28cf1525ad.mjs",
   "main.css.map": "/main.css.map",
-  "main.mjs.map": "/main-b6270c72f6.mjs.map",
+  "main.mjs.map": "/main-28cf1525ad.mjs.map",
   "runtime.mjs": "/runtime-b3e4216ae2.mjs",
   "runtime.mjs.map": "/runtime-b3e4216ae2.mjs.map",
   "Forknblog-bottom.jpg": "/./media/Forknblog-bottom.jpg",
@@ -10,9 +10,9 @@
   "LondrinaSolid-Regular.ttf": "/./media/LondrinaSolid-Regular.ttf",
   "TektonProBold.ttf": "/./media/TektonProBold.ttf",
   "main-legacy.css": "/main-legacy.css",
-  "main-legacy.es5.js": "/main-legacy-9c9c18d02e.es5.js",
+  "main-legacy.es5.js": "/main-legacy-c4af89c615.es5.js",
   "main-legacy.css.map": "/main-legacy.css.map",
-  "main-legacy.es5.js.map": "/main-legacy-9c9c18d02e.es5.js.map",
+  "main-legacy.es5.js.map": "/main-legacy-c4af89c615.es5.js.map",
   "runtime.es5.js": "/runtime-b3e4216ae2.es5.js",
   "runtime.es5.js.map": "/runtime-b3e4216ae2.es5.js.map"
 }
