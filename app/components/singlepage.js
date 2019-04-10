@@ -48,7 +48,7 @@ export default class SinglePage {
     let mainwrapper = document.getElementsByClassName('main-wrapper')[0];
     mainwrapper.innerHTML = '';
     mainwrapper.appendChild(this.el);
-    window.scrollTo(0,0);
+    document.getElementById('site-wrapper').scrollTop = 0
     //lscache.set('single-'+objType+'=' + results.name, results, 10);
 
   }

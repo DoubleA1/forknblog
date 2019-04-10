@@ -44,7 +44,7 @@ const menuClick = (menuID, isPopState) => {
             getElementsByClassName('main-wrapper')[0];
             mainwrapper.innerHTML = '';
             mainwrapper.appendChild(new SinglePage('', results).el, '');
-            window.scrollTo(0, 0);
+            document.getElementById('site-wrapper').scrollTop = 0;
           } else {
               console.log(results.errorMessage);
           }
@@ -58,7 +58,7 @@ const menuClick = (menuID, isPopState) => {
             getElementsByClassName('main-wrapper')[0];
             mainwrapper.innerHTML = '';
             mainwrapper.appendChild(new SinglePage('', results).el, '');
-            window.scrollTo(0, 0);
+            document.getElementById('site-wrapper').scrollTop = 0;
           } else {
               console.log(results.errorMessage);
           }
@@ -102,13 +102,6 @@ const menuClick = (menuID, isPopState) => {
     } else {
       window.history.pushState('menu-home', '', '#menu-home');
     }
-
-    // if (menuID !== 'init') {
-      // analytics.sendPageView(nextState);
-    // }
-    // ga('set', 'page', '/' +nextState);
-    // ga('send', 'pageview');
-    // analytics.sendPageView();
 };
 
 const main = async () => {

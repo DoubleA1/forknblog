@@ -35,7 +35,7 @@ export default class Preview {
     } catch(error) {
       mainwrapper.appendChild(new SinglePage(data, '', 'single-page').el)
     } 
-    window.scrollTo(0,0);
+    document.getElementById('site-wrapper').scrollTop = 0
   }
 
   render() {
