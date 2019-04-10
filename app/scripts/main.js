@@ -82,12 +82,16 @@ const menuClick = (menuID, isPopState) => {
      // Add selected css to menu item
      let menuitemnext = document.getElementById(menuID);
      if (menuitemnext) {
+       if (menuitemnext == 'menu-home') {
+        menuitemnext.firstChild.lastChild.classList.add('menu-selected');
+       } else {
          menuitemnext.firstChild.firstChild.classList.add('menu-selected');
+       }
      }
 
      if (menuID == 'init') {
       let menuitemnext = document.getElementById('menu-home');
-      menuitemnext.firstChild.firstChild.classList.add('menu-selected');
+      menuitemnext.firstChild.lastChild.classList.add('menu-selected');
     }
 
     if (isPopState) {

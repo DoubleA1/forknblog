@@ -688,10 +688,6 @@ article > div {
   justify-content: space-between;
 }
 
-stars-wrapper {
-
-}
-
 .stars {
   content: url('../images/star.svg');
   height: 1em;
@@ -884,16 +880,6 @@ flex: 1;
     content: "4";
     display: none; 
   }
-
-  .header-menu {
-    .header-menu {
-      background-size: 30%;
-    }
-
-  }
-  
-
-
 }
 
 /* medium devices (ie. tablets) */
@@ -930,8 +916,8 @@ flex: 1;
 
   }
 
-  .sitelogo {
-    width: 3em;
+  .site-logo {
+    width: 2.75em;
   }
 
   .home-wrapper {
@@ -959,6 +945,10 @@ flex: 1;
 
   .menu-label {
     font-size: 1.3em;
+  }
+
+  .menu-label:first-child {
+    margin-left: .5em;
   }
 
  
