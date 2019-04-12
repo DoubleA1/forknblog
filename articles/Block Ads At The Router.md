@@ -15,7 +15,7 @@ So I pickup my my iphone and head over to my favorite fake news source to read t
 
 <br/>
 
-To make matters worse, I scroll down one time and they kill me with a MODAL AD.>
+To make matters worse, I scroll down one time and they kill me with a MODAL AD.
 
 <br/>
 
@@ -25,7 +25,11 @@ To make matters worse, I scroll down one time and they kill me with a MODAL AD.>
 
 OK time to fix this problem. But how?
 
+<br/>
+
 - Ads are blocked on my laptop using an extension on my browser called adblockplus. They have an app for iphones that costs less than $2.
+
+<br/>
 
 - It would nice to get rid of ads on all the devices in my house not just my phone, like kid's tablet, wife''s phone, fire stick, etc.
 

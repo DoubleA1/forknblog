@@ -18,11 +18,11 @@ There are many techniques one could use when collecting information about a pers
 
 <br/>
 
-Go to [pipl.com](www.pipl.com) and complete the form.
+Go to [pipl.com](www.pipl.com) and complete the form.<br/>
 <br/>
-Personal data points vary from one person to another. Someones age or past cities of residence are quite common, as are telephone numbers and login usernames. If the target posesses a LinkedIn account, we can see their work history, educational history, and a picture. Its like generating a free, detailed report anonymously in seconds!
+Personal data points vary from one person to another. Someones age or past cities of residence are quite common, as are telephone numbers and login usernames. If the target posesses a LinkedIn account, we can see their work history, educational history, and a picture. Its like generating a free, detailed report anonymously in seconds!<br/>
 <br/>
-My immediate reaction was to look for 'removal' or 'opt-out' instructions. Opt-out is available on the other popular people search websites, alas, Pipl.com is different. Instead of collecting the data themselves, Pipl points you to the information found elsewhere online, they are simply the messenger. The message is coming from a leaky source like Linkedin. In order to remove data from Pipl, I need to cut the leak first.
+My immediate reaction was to look for 'removal' or 'opt-out' instructions. Opt-out is available on the other popular people search websites, alas, Pipl.com is different. Instead of collecting the data themselves, Pipl points you to the information found elsewhere online, they are simply the messenger. The message is coming from a leaky source like Linkedin. In order to remove data from Pipl, I need to cut the leak first.<br/>
 <br/>
 I logged into LinkedIn and sure enough they were being allowed to transmit my profile data. In privacy settings, my public profile visibility was set to everyone. Pipl.com likely pulls its data from these public profiles, but can I be sure? My personal information was never going to be private in the hands of a multinational corporation anyway, so adios
 
