@@ -14,7 +14,7 @@ Google Maps is a powerful tool with many cool features. When you embed a map, th
 
 <br/>
 
-<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.152012363639!2d-80.20422358530921!3d26.25672938341448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d904ba5bdb4cf1%3A0x1829700d27d2cc65!2sLeo&#39;s+Beauty+Salon!5e0!3m2!1sen!2sus!4v1477937769010' frameborder='0' style='border:0;width:100%;height:19rem;margin-top:1rem;'></iframe>
+![](https://s3-us-west-1.amazonaws.com/bangequal-media/gmap.jpg)
 
 <br/>
 
@@ -145,6 +145,6 @@ width: 100%;
 
 <br/>
 
-<div style='width=100%;display:flex;justify-content:space-around'><div style='height:auto;width:80%;display:flex;justify-content:space-around;flex-direction:column;align-items:center;'><div style='background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=2333+N+State+Rd+7+Margate,+FL&zoom=14&scale=2&size=500x250&maptype=roadmap&markers=icon:http://leosbeautysalon.com/assets/images/favicon.png%7C2333+N+State+Rd+7+Margate,+FL&key=AIzaSyCgu_Q8xV12Q5H-WFjYmYcWzDO6NOxr8hk);background-repeat:no-repeat;background-position:center;height:300px;width:100%'><div style='padding:.937rem;margin:.625rem 0 0 .625rem;background-color:white;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);text-align:center;width:9.375rem;font-size:.85rem;line-height:150%'><a href='https://www.google.com/maps/place/Leos+Beauty+Salon/@26.256729,-80.202035,16z/data=!4m5!3m4!1s0x0:0x1829700d27d2cc65!8m2!3d26.2567294!4d-80.2020349?hl=en-US' style='font-weight:bold;text-decoration:none;'><p>Leos Beauty Salon</a><br/>2525 N State Rd 7<br/>Margate, FL 33063</p></div>
+![](https://s3-us-west-1.amazonaws.com/bangequal-media/staticgmap.jpg)
 
 
