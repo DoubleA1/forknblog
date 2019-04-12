@@ -19,7 +19,7 @@ Fork this repository to your account.
 ##### Step 2- Enable GitHub Pages
 Enable Github Pages on your new repository. Do this by going to Settings and looking for the GitHub Pages section. Click the Source drop down and select master branch /docs folder.
 
-You now have your own copy of the blogging website. The GitHub Pages section of the Settings page show your new blog's the url.
+You now have your own copy of the blogging website. The GitHub Pages section of the Settings page will show your new blog's url.
 
 ##### Step 3- Customize Your Blog
 There are two files in the repository that are used to customize the blog.
