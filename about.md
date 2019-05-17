@@ -3,7 +3,7 @@
 Header Image
 *****************
 -->
-![](https://s3-us-west-1.amazonaws.com/bangequal-media/aboutbackground4.jpg )
+![](https://images.pexels.com/photos/249798/pexels-photo-249798.png)
 
 <!--
 *****************
