@@ -1,1 +1,1 @@
-Hi this is my intro! Here I will add my most interesting thoughts and ideas. Maybe discuss my location or places visited. Talk about my hobbies and favorite ways to spend my time.
+Hello, my name is Alex, I live in New Jersey. I am a programmer and like to learn new things!
